@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="10" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T16:07:51 IST" name="Default suite" finished-at="2023-09-01T16:10:09 IST" duration-ms="138641">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T16:07:51 IST" name="Default test" finished-at="2023-09-01T16:10:09 IST" duration-ms="138641">
+      <class name="Menu.TC_ID_18">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:07:51 IST" name="setUp" finished-at="2023-09-01T16:08:11 IST" duration-ms="20350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Home_Page()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:11 IST" name="Home_Page" finished-at="2023-09-01T16:08:11 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page -->
+        <test-method signature="Login_Id()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:11 IST" name="Login_Id" finished-at="2023-09-01T16:08:39 IST" duration-ms="27716" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.widget.Button[@content-desc="Verify"]}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.widget.Button[@content-desc="Verify"]}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Contact.Login.AppLogin(Login.java:38)
+at Menu.TC_ID_18.Login_Id(TC_ID_18.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Id -->
+        <test-method signature="TC_ID_18_13()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:39 IST" name="TC_ID_18_13" finished-at="2023-09-01T16:08:39 IST" duration-ms="68" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.widget.ImageView[@index='3']}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.widget.ImageView[@index='3']}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Menu.TC_ID_18.TC_ID_18_13(TC_ID_18.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_13 -->
+        <test-method signature="TC_ID_18_14()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:39 IST" name="TC_ID_18_14" finished-at="2023-09-01T16:08:39 IST" duration-ms="85" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.view.View[@index='2']}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.view.View[@index='2']}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Menu.TC_ID_18.TC_ID_18_14(TC_ID_18.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_14 -->
+        <test-method signature="TC_ID_18_15()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:39 IST" name="TC_ID_18_15" finished-at="2023-09-01T16:08:50 IST" duration-ms="10841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_15 -->
+        <test-method signature="TC_ID_18_16()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:50 IST" name="TC_ID_18_16" finished-at="2023-09-01T16:08:55 IST" duration-ms="5342" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Menu.TC_ID_18.TC_ID_18_16(TC_ID_18.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_16 -->
+        <test-method signature="TC_ID_18_17()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:08:55 IST" name="TC_ID_18_17" finished-at="2023-09-01T16:09:00 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_17 -->
+        <test-method signature="TC_ID_18_18()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:00 IST" name="TC_ID_18_18" finished-at="2023-09-01T16:09:06 IST" duration-ms="5564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_18 -->
+        <test-method signature="TC_ID_18_19()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:06 IST" name="TC_ID_18_19" finished-at="2023-09-01T16:09:15 IST" duration-ms="9593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_19 -->
+        <test-method signature="TC_ID_18_21()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:15 IST" name="TC_ID_18_21" finished-at="2023-09-01T16:09:33 IST" duration-ms="18180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_21 -->
+        <test-method signature="TC_ID_18_22()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:33 IST" name="TC_ID_18_22" finished-at="2023-09-01T16:09:39 IST" duration-ms="5607" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.widget.Button[@index='0']}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [80c2ed6e-14d4-43d1-83d8-b0819f780b2a, findElement {using=xpath, value=//android.widget.Button[@index='0']}]
+Capabilities {appium:app: C:\Users\SwatiSarkar\Downlo..., appium:appPackage: com.rcs.krishlal, appium:connectHardwareKeyboard: true, appium:databaseEnabled: false, appium:desired: {app: C:\Users\SwatiSarkar\Downlo..., connectHardwareKeyboard: true, deviceName: OnePlus Nord CE 2 Lite 5G, newcommandTimeout: 3600, platformName: ANDROID, platformVersion: 13, udid: b2d53740}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2381, appium:deviceName: b2d53740, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2412, appium:deviceUDID: b2d53740, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newcommandTimeout: 3600, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:udid: b2d53740, appium:viewportRect: {height: 2144, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 80c2ed6e-14d4-43d1-83d8-b0819f780b2a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Menu.TC_ID_18.TC_ID_18_22(TC_ID_18.java:231)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_22 -->
+        <test-method signature="TC_ID_18_23()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:39 IST" name="TC_ID_18_23" finished-at="2023-09-01T16:09:45 IST" duration-ms="5768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_23 -->
+        <test-method signature="TC_ID_18_24()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:45 IST" name="TC_ID_18_24" finished-at="2023-09-01T16:09:54 IST" duration-ms="9229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_24 -->
+        <test-method signature="TC_ID_18_25()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:09:54 IST" name="TC_ID_18_25" finished-at="2023-09-01T16:10:00 IST" duration-ms="5763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_18_25 -->
+        <test-method signature="TC_ID_20_20()[pri:0, instance:Menu.TC_ID_18@8458f04]" started-at="2023-09-01T16:10:00 IST" name="TC_ID_20_20" finished-at="2023-09-01T16:10:09 IST" duration-ms="9362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID_20_20 -->
+      </class> <!-- Menu.TC_ID_18 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
